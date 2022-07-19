@@ -18,6 +18,7 @@ namespace Day6LogicalPrograms
             Console.WriteLine("2.Calculate Prime Number");
             Console.WriteLine("3.Calculate Reverse Number");
             Console.WriteLine("4.Coupon Code");
+            Console.WriteLine("5.Calculate StopWatch");
             Console.Write("Enter A Choice :");
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -37,6 +38,9 @@ namespace Day6LogicalPrograms
                     break;
                 case 4:
                   CouponNumbers.ACouponCode();
+                    break;
+                default:
+                    StopWatch.AStopWatch();
                     break;
             }
         }
