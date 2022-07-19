@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace Day6LogicalPrograms
+{
+
+    public class Program
+    {
+
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("0.Calculate Fibonacci series");
+
+            Console.Write("Enter A Choice :");
+            int choice = Convert.ToInt32(Console.ReadLine());
+
+            switch (choice)
+            {
+                case 0:
+                    Fibonacci_Series.AFibonacciseries();
+                    break;
+            }
+        }
+    }
+}
