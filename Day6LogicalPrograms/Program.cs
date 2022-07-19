@@ -16,6 +16,7 @@ namespace Day6LogicalPrograms
             Console.WriteLine("0.Calculate Fibonacci series");
             Console.WriteLine("1.Calulate Perfect Number");
             Console.WriteLine("2.Calculate Prime Number");
+            Console.WriteLine("3.Calculate Reverse Number");
             Console.Write("Enter A Choice :");
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -29,6 +30,9 @@ namespace Day6LogicalPrograms
                     break;
                 case 2:
                     PrimeNumber.APrimeNumber();
+                    break;
+                case 3:
+                    ReverseNumber.AReverseNumber();
                     break;
             }
         }
